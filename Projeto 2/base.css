@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    text-align: left;
+    margin-top: 30%;
+    width: 15%;
+    background-color: aquamarine;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: whitesmoke;
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(163, 196, 240);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(59, 69, 114);
+    min-height: 150px;
+}
+.contato{
+    min-height: 100px;
+    width: 30%;
+    
+}
+.google{
+    background-color: rgb(12, 13, 14);
+    min-height: 300px;
+    width: 50%;
+}
+.form{
+    float: right;
+    height: 500px;
+    width: 450px;
+    margin-top: -40%;
+}
